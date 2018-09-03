@@ -1,0 +1,75 @@
+.speaker-name {
+	font-weight: bold;
+	color: #999999;
+	padding-left: 0.3rem; 
+	padding-bottom: 0.2rem;
+	}
+
+* {
+	
+}
+
+body {
+	background-color: black;
+}
+
+img {
+	width: 70px;
+	height: 70px;
+}
+
+table {
+	border-style: solid;
+	max-width: 40rem;
+	color: #CCCCCC;
+	margin-top: 0.2rem;
+}
+
+.message-body {
+	color: #CCCCCC;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  margin: 0.2rem;
+}
+
+.ava-box {
+  display: -webkit-flex;
+  display: flex;
+  width: 6rem;
+  flex-direction: column;
+  background-color: #181616;
+  
+}
+
+.avatar {
+	margin-left: auto;
+    margin-right: auto;
+	padding-top: 0.5rem;
+	padding-bottom: 0.3rem;
+}
+
+
+
+.message {
+	flex-grow: 2;
+	background-color: #262228;
+	padding: 0.4rem;
+}
+
+.normal {
+	color: #CCCCCC;
+}
+
+.roll {
+	color: #A8BF76;
+}
+
+.inline-roll {
+	color: #A8BF76;
+}
+
+.emote {
+	color: #007849;
+}
+
